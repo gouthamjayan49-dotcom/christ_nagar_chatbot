@@ -1,0 +1,10 @@
+# Backend - Python/FastAPI
+backend/venv/
+backend/__pycache__/
+backend/.env
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env

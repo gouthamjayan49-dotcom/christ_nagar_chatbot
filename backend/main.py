@@ -40,7 +40,7 @@ Do not use any outside knowledge. Only use what is provided below.
 """
     
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model=os.getenv("MODEL_NAME"),
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": request.message}
